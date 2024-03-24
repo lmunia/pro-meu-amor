@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zabelele <3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pro meu amor</h1>
+        </header>
+        <main>
+            <h2 class="center">Um ano de nós</h2> <!-- Novo cabeçalho -->
+            <p class="center">Nem parece que passou tudo isso né? To aqui pra tentar homenagear esse tempo todo que ficamos juntos, aproveita ai que deu trabalho.</p> <!-- Novo parágrafo -->
+            <h2 class="center">No dia 18/03/2023, te pedi em namoro aqui</h2>
+            <div id="map" style="width: 70%; height: 500px; margin: 0 auto;"></div>
+            <div id="countdown">
+                <h2>Desde esse dia, se passaram <span id="timer"></span></h2>
+                <p>Minha vida ganhou um novo sentido e um novo propósito, junto com uma nova razão para sorrir, você me proporcinou uns dos melhores e mais felizes momentos da minha vida e vou ser eternamente grato. 
+                    Tenho que melhorar muito ainda pra te merecer, mas eu to tentando. Enquanto isso, vou dar o maximo de mim pra te fazer a mulher mais feliz e orgulhosa do mundo, já que você me fez o homem mais feliz e orgulhoso do mundo desde o dia que me deu o privilégio de poder te chamar de minha.</p>
+            </div>
+            <h2 class="center">Nossa música! (ou uma delas)</h2>
+            <p class="center">Essa é braba</p> <!-- Centralizando a frase -->
+            <audio controls class="audio">
+                <source src="musica.mp3" type="audio/mpeg">
+            </audio>
+            <div id="content">
+                <h2>Fotes que estão no meu corassao</h2>
+                <p class="center">Não apago por nada</p>
+                <img class="imagem" src="foto1.jpg">
+                <img class="imagem" src="foto2.jpg">
+                <img class="imagem" src="foto3.jpg">
+                <img class="imagem" src="foto4.jpg">
+                <img class="imagem" src="foto5.jpg">
+                <img class="imagem" src="foto6.jpg">
+                <img class="imagem" src="foto7.jpg">
+                <img class="imagem" src="foto8.jpg">
+                <img class="imagem" src="foto9.jpg">
+                <img class="imagem" src="foto10.jpg">
+                <img class="imagem" src="foto11.jpg">
+                <img class="imagem" src="foto12.jpg">
+                <img class="imagem" src="foto13.jpg">
+                <img class="imagem" src="foto14.jpg">
+                <img class="imagem" src="foto15.jpg">
+                <img class="imagem" src="foto16.jpg">
+                <img class="imagem" src="foto17.jpg">
+                <img class="imagem" src="foto18.jpg">
+                <img class="imagem" src="foto19.jpg">
+                <img class="imagem" src="foto20.jpg">
+                <img class="imagem" src="foto21.jpg">
+                <img class="imagem" src="foto22.jpg">
+                <img class="imagem" src="foto23.jpg">
+                <img class="imagem" src="foto24.jpg">
+                <img class="imagem" src="foto25.jpg">
+                <img class="imagem" src="foto26.jpg">
+                <img class="imagem" src="foto27.jpg">
+                <img class="imagem" src="foto28.jpg">
+                <img class="imagem" src="foto29.jpg">
+                <img class="imagem" src="foto30.jpg">
+                <img class="imagem" src="foto31.jpg">
+                <img class="imagem" src="foto32.jpg">
+                <img class="imagem" src="foto33.jpg">
+                <img class="imagem" src="foto34.jpg">
+                <img class="imagem" src="foto35.jpg">
+                <img class="imagem" src="foto36.jpg">
+                <img class="imagem" src="foto37.jpg">
+                <img class="imagem" src="foto38.jpg">
+                <img class="imagem" src="foto39.jpg">
+                <img class="imagem" src="foto40.jpg">
+                <img class="imagem" src="foto41.jpg">
+                <img class="imagem" src="foto42.jpg">
+                <img class="imagem" src="foto43.jpg">
+            </div>
+            <header>
+                <h2 class="center">Te amo <3</h2>
+            </header>
+        </main>
+    </div>
+    <script>
+        // Função para inicializar o mapa
+        function initMap() {
+            // Coordenadas do Estádio do Morumbi
+            var location = { lat: -23.600600, lng: -46.719200 };
+            // Opções do mapa
+            var mapOptions = {
+                center: location,
+                zoom: 19,
+                mapTypeId: 'satellite'
+            };
+            // Cria o mapa
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            // Marcador no Estádio do Morumbi
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map,
+                title: "Estádio do Morumbi"
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWRIrjPPpF3uJV7D1Ajlfctbb94KjKdWg&callback=initMap"></script>
+    <script src="script.js"></script>
+</body>
+</html>
